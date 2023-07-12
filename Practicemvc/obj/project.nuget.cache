@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "JRHVfnpLgD5ZOdi1Yfc27zqtEH0sA9ZeKO19W1SQkq9VF8qLf5P0N3qTFRAKm6Vyx5hvNY9ByggdvWuFK2Lk6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SupportDev2\\source\\repos\\PracticeProject\\Practicemvc\\Practicemvc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SupportDev2\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\SupportDev2\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\SupportDev2\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\SupportDev2\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\SupportDev2\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\SupportDev2\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\SupportDev2\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\SupportDev2\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

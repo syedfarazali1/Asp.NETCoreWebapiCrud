@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+
+<body>
+
+    <h2>HTML Table</h2>
+
+    <table id="table">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        @*       <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+        </tr>*@
+
+    </table>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Make AJAX request to the API
+        $.ajax({
+            url: "/Home/Index/Get",
+            type: "GET",
+            dataType: "json",
+            success: function (data) {
+                // Clear existing table data
+                $("#table").empty();
+
+                // Iterate over the response data and bind it to the table
+                $.each(data, function (index, item) {
+                    var row = $("<tr>")
+                        .append($("<td>").text(item.id))
+                        .append($("<td>").text(item.name))
+                        .append($("<td>").text(item.email));
+
+                    $("#table").append(row);
+                });
+            },
+            error: function (xhr, status, error) {
+                console.log("AJAX request error:", error);
+            }
+        });
+    });
+</script>
+

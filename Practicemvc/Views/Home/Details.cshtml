@@ -1,0 +1,41 @@
+﻿﻿
+@model PracticeProject.Models.StudentDetail
+
+
+
+<table class="table table-bordered">
+    <tr>
+        <td>
+           Id
+        </td>
+        <td>
+           Name
+        </td>
+        <td>
+      RollNumber
+        </td>
+        <td>
+        Country
+        </td>
+
+    </tr>
+
+        <tr>
+            <td>
+            @Html.DisplayFor(modelItem => Model.Id)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => Model.Name)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => Model.RollNumber)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => Model.Country)
+            </td>
+
+         
+        </tr>
+    
+
+</table>

@@ -1,0 +1,18 @@
+﻿﻿
+@model PracticeProject.Models.StudentDetail
+
+
+<form action="" method="post">
+    <input hidden type="text" id="id" name="Id" value="@Model.Id" required><br>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" value="@Model.Name" required><br>
+
+    <label for="rollNumber">Roll Number:</label>
+    <input type="text" id="rollNumber" name="rollNumber" value="@Model.RollNumber" required><br>
+
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" value="@Model.Country" required><br>
+
+    <input type="submit" value="Submit">
+</form>
+
